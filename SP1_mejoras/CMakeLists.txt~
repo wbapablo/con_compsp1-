@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+
+project(HelloWorld)
+
+include_directories(include headers)
+
+add_definitions(-std=c++0x -g -O3)
+
+add_executable (HelloWorld src/main.cpp)
+
+
